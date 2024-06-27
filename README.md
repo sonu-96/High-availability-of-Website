@@ -1,7 +1,8 @@
 # High-availability-of-Website
 for provide high availability of wordpress website and share it using nfs server
-## Create two ec2-instances on aws cloud and install all dependenciesa regarding wordpress setup.
+Create two ec2-instances on aws cloud and install all dependenciesa regarding wordpress setup.
       In this setup we need to install firstly a apache webserver for hosting our website and its modules after this we need to install php for providing coneection and after this create a RDS mysql db for database and after this download wordpress file and setup database details in it's configuration.
+
 ```
 sudo apt-get update ;
 ## Step-1:- Install Apache
